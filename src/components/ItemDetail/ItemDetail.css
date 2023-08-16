@@ -1,0 +1,8 @@
+.ItemDetailCard{
+    height: 495px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid #FFDBAA;
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,8 @@
+.itemListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 480px;
+    height: 460px;
+    margin: 0 auto;
+  }
