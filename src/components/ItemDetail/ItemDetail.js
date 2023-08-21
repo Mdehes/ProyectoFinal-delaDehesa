@@ -64,5 +64,3 @@ export const ItemDetail = ({
     </article>
   );
 };
-
-// export default ItemDetail;
