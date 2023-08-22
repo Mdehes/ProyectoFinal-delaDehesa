@@ -21,8 +21,8 @@ const NavBar = () => {
         <Link to="/category/pet">
           <button>Pets</button>
         </Link>
+        <CartWidget />
       </div>
-      <CartWidget />
       <img src={moon} alt="moon" width="50px" />
     </nav>
   );
