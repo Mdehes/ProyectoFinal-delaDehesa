@@ -55,7 +55,7 @@ export const ItemDetail = ({
       <div className="ItemCountContainer">
         {quantityAdded > 0 ? (
           <Link to="/cart" className="Option">
-            Buy
+            <button>Added</button>
           </Link>
         ) : (
           <ItemCount initial={1} stock={stock} onAdd={handleOnAdd} />

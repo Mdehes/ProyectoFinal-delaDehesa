@@ -8,9 +8,11 @@ const Cart = () => {
   if (totalQuantity === 0) {
     return (
       <div>
-        <h1>Empty</h1>
+        <h3>Empty</h3>
         <Link to="/" className="Option">
+          <button>
           Products
+          </button>
         </Link>
       </div>
     );
@@ -19,9 +21,13 @@ const Cart = () => {
   return (
     <div>
       {cart.map(p => <CartItem key={p.id} {...p}/>) }
-      <h3>Total: ${total}</h3>
+      <h4>Total: ${total}</h4>
       <button onClick={()=> clearCart ()} className="Button">Clean</button>
-      <Link to='/checkout'>checkout</Link>
+      <Link to='/checkout'>
+        <button>
+          Checkout
+        </button>
+      </Link>
     </div>
   )
 }
